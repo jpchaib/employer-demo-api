@@ -1,4 +1,4 @@
-package com.nology.employersdemo;
+package com.nology.employersdemo.Employer;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
