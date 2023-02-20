@@ -25,7 +25,7 @@ public class EmployerService {
 	}
 	
 	public void create(EmployerDTO employer) {
-		Employer e = new Employer(employer.getFirstname(), employer.getLastname(), employer.getEmail());
+		Employer e = new Employer(employer.getFirstname(), employer.getLastname(), employer.getEmail(), employer.getNumber(), employer.getAddress(), employer.getIspermanent(), employer.getStartdate(), employer.getFinishdate(), employer.getIsfulltime());
 		repository.save(e);
 	}
 	

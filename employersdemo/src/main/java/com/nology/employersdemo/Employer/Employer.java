@@ -29,6 +29,20 @@ public class Employer {
 		this.setEmail(email);
 	}
 	
+	public Employer(String firstname, String lastname, String email, Long number, String address, Boolean ispermanent, Date startDate, Date finishdate, Boolean isfulltime ) {
+		this.setFirstname(firstname);
+		this.setLastname(lastname);
+		this.setEmail(email);
+		this.setNumber(number);
+		this.setAddress(address);
+		this.setIspermanent(ispermanent);
+		this.setStartdate(startDate);
+		this.setFinishdate(finishdate);
+		this.setIsfulltime(isfulltime);
+		
+	}
+	
+	
 	public Employer() {}
 
 	
