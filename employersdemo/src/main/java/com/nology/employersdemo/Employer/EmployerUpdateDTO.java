@@ -2,15 +2,10 @@ package com.nology.employersdemo.Employer;
 
 import java.util.Date;
 
-import jakarta.validation.constraints.NotNull;
-
-public class EmployerDTO {
+public class EmployerUpdateDTO {
 	
-	@NotNull
 	private String firstname;
-	@NotNull
 	private String lastname;
-	@NotNull
 	private String email;
 	private Long number;
 	private String address;
@@ -67,7 +62,7 @@ public class EmployerDTO {
 	public void setIsfulltime(Boolean isfulltime) {
 		this.isfulltime = isfulltime;
 	}
-	
+
 	public String getFirstname() {
 		return firstname;
 	}

@@ -26,6 +26,7 @@ public class Employer {
 	public Employer(String firstname, String lastname, String email) {
 		this.setFirstname(firstname);
 		this.setLastname(lastname);
+		this.setEmail(email);
 	}
 	
 	public Employer() {}
