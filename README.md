@@ -14,9 +14,9 @@ To run this application, you will need to have Java 11 and MySQL installed on yo
 
 2. Open the file `src/main/resources/application.properties` and replace the database name, username, and password with your own:
 
-`spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name_here
-spring.datasource.username=your_username_here
-spring.datasource.password=your_password_here`
+`spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name_here`
+`spring.datasource.username=your_username_here`
+`spring.datasource.password=your_password_here`
 
 ### Running the Application
 
